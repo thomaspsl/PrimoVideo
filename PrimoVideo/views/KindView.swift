@@ -86,7 +86,7 @@ struct KindView: View {
                                }
 
                                VStack(alignment: .leading, spacing: 5) {
-                                   Text("\(movie.original_title)")
+                                   Text("\(movie.title)")
                                        .font(.system(size: 20))
                                        .foregroundColor(.white)
                                        .multilineTextAlignment(.leading)

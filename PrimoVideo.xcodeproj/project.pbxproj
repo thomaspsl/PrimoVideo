@@ -23,6 +23,7 @@
 		EDB5C84F2A1B6FF900C4BC93 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5C84E2A1B6FF900C4BC93 /* HomeView.swift */; };
 		EDB5C8522A1B75A200C4BC93 /* HomeMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5C8512A1B75A200C4BC93 /* HomeMovies.swift */; };
 		EDB5C8542A1B8D8700C4BC93 /* HomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5C8532A1B8D8700C4BC93 /* HomeMovie.swift */; };
+		EDCDF9B82A2F61DB006EB31F /* TMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDF9B72A2F61DB006EB31F /* TMDB.swift */; };
 		EDFF8B842A1CFAB300BA32B3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF8B832A1CFAB300BA32B3 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		EDB5C84E2A1B6FF900C4BC93 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		EDB5C8512A1B75A200C4BC93 /* HomeMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMovies.swift; sourceTree = "<group>"; };
 		EDB5C8532A1B8D8700C4BC93 /* HomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMovie.swift; sourceTree = "<group>"; };
+		EDCDF9B72A2F61DB006EB31F /* TMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB.swift; sourceTree = "<group>"; };
 		EDFF8B832A1CFAB300BA32B3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				ED25FABB29DC26B300F831D9 /* assets */,
+				EDCDF9B62A2F61AB006EB31F /* config */,
 				ED142ACA29ED23D80084541E /* models */,
 				EDB5C8502A1B70BD00C4BC93 /* controllers */,
 				EDB5C84B2A1B6CD800C4BC93 /* views */,
@@ -128,6 +131,14 @@
 				ED4602B52A2DE24A00311921 /* KindController.swift */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		EDCDF9B62A2F61AB006EB31F /* config */ = {
+			isa = PBXGroup;
+			children = (
+				EDCDF9B72A2F61DB006EB31F /* TMDB.swift */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 				EDB5C8522A1B75A200C4BC93 /* HomeMovies.swift in Sources */,
 				ED25FAB629DC26B200F831D9 /* PrimoVideo.swift in Sources */,
 				EDB5C84F2A1B6FF900C4BC93 /* HomeView.swift in Sources */,
+				EDCDF9B82A2F61DB006EB31F /* TMDB.swift in Sources */,
 				ED4602BA2A2DE5AB00311921 /* HomeGenre.swift in Sources */,
 				EDB5C84A2A1B615A00C4BC93 /* FilmTrailers.swift in Sources */,
 				EDB15F1C29EE9647007CAAED /* FilmGenre.swift in Sources */,

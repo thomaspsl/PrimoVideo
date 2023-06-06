@@ -39,7 +39,7 @@ struct FilmMovie: Decodable {
     // CodeKeys
     enum CodingKeys: String, CodingKey {
         case iId = "id"
-        case sTitle = "original_title"
+        case sTitle = "title"
         case iRate = "vote_average"
         case sSubtitle = "tagline"
         case sReleaseDate = "release_date"

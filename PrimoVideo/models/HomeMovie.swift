@@ -11,7 +11,7 @@ struct HomeMovie: Hashable, Decodable
 {
     // Elements
     let id: Int
-    let original_title : String;
+    let title : String;
     let poster_path : String;
     let release_date: String;
     let overview: String;

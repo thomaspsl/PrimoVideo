@@ -18,12 +18,8 @@ class KindController: ObservableObject {
     
     // Async Movie
     func fetchGenreMovies() async-> HomeMovies? {
-        let api_url = "https://api.themoviedb.org/3/discover/movie"
-        let api_key = "9a8f7a5168ace33d2334ba1fe14a83fb"
-        let api_id = myParameter
-        
         let link = URL(string:
-                            "\(api_url)?api_key=\(api_key)&sort_by=popularity.desc&with_genres=\(api_id)")!
+                            "\(TMDB.apiUrl)/3/discover/movie?api_key=\(TMDB.apiKey)&sort_by=popularity.desc&with_genres=\(myParameter)&language=\(TMDB.apiLanguage)")!
         let session = URLSession.shared
         do {
             let request = URLRequest(url: link)

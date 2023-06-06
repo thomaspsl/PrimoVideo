@@ -18,12 +18,8 @@ class FilmController: ObservableObject {
     
     // Async Movie
     func fetchMovie() async-> FilmMovie? {
-        let api_url = "https://api.themoviedb.org/3/movie"
-        let api_id = myParameter
-        let api_key = "9a8f7a5168ace33d2334ba1fe14a83fb"
-        
         let link = URL(string:
-                            "\(api_url)/\(api_id)?api_key=\(api_key)&append_to_response=videos")!
+                            "\(TMDB.apiUrl)/3/movie/\(myParameter)?api_key=\(TMDB.apiKey)&append_to_response=videos&language=\(TMDB.apiLanguage)")!
         let session = URLSession.shared
         do {
             let request = URLRequest(url: link)

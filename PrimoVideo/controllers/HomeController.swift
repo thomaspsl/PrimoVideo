@@ -13,11 +13,8 @@ class HomeController: ObservableObject {
 
     //
     func fetchRated() async-> HomeMovies? {
-        let api_url = "https://api.themoviedb.org/3/movie/top_rated"
-        let api_key = "9a8f7a5168ace33d2334ba1fe14a83fb"
-        
         let link = URL(string:
-                            "\(api_url)?api_key=\(api_key)")!
+                            "\(TMDB.apiUrl)/3/movie/top_rated?api_key=\(TMDB.apiKey)&language=\(TMDB.apiLanguage)")!
         let session = URLSession.shared
         do {
             let request = URLRequest(url: link)
@@ -45,11 +42,8 @@ class HomeController: ObservableObject {
     
     // Async Movies
     func fetchMovies() async-> HomeMovies? {
-        let api_url = "https://api.themoviedb.org/3/movie/popular"
-        let api_key = "9a8f7a5168ace33d2334ba1fe14a83fb"
-        
         let link = URL(string:
-                            "\(api_url)?api_key=\(api_key)")!
+                            "\(TMDB.apiUrl)/3/movie/popular?api_key=\(TMDB.apiKey)&language=\(TMDB.apiLanguage)")!
         let session = URLSession.shared
         do {
             let request = URLRequest(url: link)
@@ -77,11 +71,8 @@ class HomeController: ObservableObject {
     
     // Async Genres
     func fetchGenres() async-> HomeGenres? {
-        let api_url = "https://api.themoviedb.org/3/genre/movie/list"
-        let api_key = "9a8f7a5168ace33d2334ba1fe14a83fb"
-        
         let link = URL(string:
-                            "\(api_url)?api_key=\(api_key)")!
+                            "\(TMDB.apiUrl)/3/genre/movie/list?api_key=\(TMDB.apiKey)&language=\(TMDB.apiLanguage)")!
         let session = URLSession.shared
         do {
             let request = URLRequest(url: link)
