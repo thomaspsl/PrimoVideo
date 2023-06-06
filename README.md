@@ -1,27 +1,20 @@
-<h1 align="center"><p></p><p></p> 
-  <a href="https://developer.apple.com/swift/"><img src="https://github.com/thomaspsl/PrimoVideo/assets/84765571/87a90938-389b-487b-b2d1-6b83a574673f" alt="thomaspsl" width="170"></a>
-  <br><p></p>
+<h1 align="center">
+  <br>
+  <a href="https://www.primevideo.com/"><img src="https://github.com/thomaspsl/PrimoVideo/assets/84765571/87a90938-389b-487b-b2d1-6b83a574673f" alt="thomaspsl" width="380"></a>
+  <br>
+  <br>
   PrimoVideo Project
   <br>
 </h1>
-<h4 align="center">It's a web <a href="https://www.thomaspsl.fr" target="_blank">portfolio</a> for introducing myself a little bit built with <a href="https://fr.reactjs.org/" target="_blank">React Native</a>.</h4>
+<h4 align="center">It's an ios application for sharing various good tips built in <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>.</h4>
 <p align="center">
-  <a href="https://fr.reactjs.org/">
-    <img src="https://img.shields.io/badge/React-18.2-5ED3F3" alt="React">
+  <a href="https://developer.apple.com/xcode/swiftui/">
+    <img src="https://img.shields.io/badge/SwiftUI-.-2D71E3" alt="SwiftUI">
   </a>
 </p>
 <p align="center">
-  <a href="https://html.com/">
-    <img src="https://img.shields.io/badge/HTML-5.0-E34C26" alt="HTML">
-  </a>
-  <a href="https://developer.mozilla.org/fr/docs/Learn/CSS">
-    <img src="https://img.shields.io/badge/CSS-3.0-563D7C" alt="CSS">
-  </a>
-  <a href="https://developer.mozilla.org/fr/docs/Learn/JavaScript">
-    <img src="https://img.shields.io/badge/JS-_._-F1E05A" alt="JS">
-  </a>
-  <a href="https://www.typescriptlang.org/">
-    <img src="https://img.shields.io/badge/TS-4.8-3178C6" alt="TS">
+  <a href="https://developer.apple.com/swift/">
+    <img src="https://img.shields.io/badge/Swift-.-E64C34" alt="Swift">
   </a>
 </p>
 <p align="center">
@@ -48,32 +41,28 @@
 
 
 ## 📚 Description
-The project consists of the creation of my new web portfolio where you will find a selection of my most recent and representative works. My portfolio is designed to give you an overview of my skills, experience and working style. I am proud to showcase my most successful work and I hope you will take the time to explore it. I am confident that my portfolio will give you a clear idea of what I can bring to your projects and how I can help you achieve your goals. This portfolio is still under development but its completion would not be long in coming!
+The project consists in the creation of a new ios mobile application where you'll find visuals similar to an already existing "Prime Video" application. In this application, you'll find the use of an MVC framework using the SwiftUI library. Among the features available, the application uses the well-known MovieDB movie management API. Thanks to this API, it's possible to see the list of the most popular films of the moment, as well as those with the highest ratings. It is also able to list the different categories of films that exist, and to take note of the films that belong to these categories. I hope this application meets your needs!
 
 
 
 ## 🚀 How To Use
-To clone and run this application, you'll need [Git](https://git-scm.com) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 ```bash
 # Clone this repository
-$ git clone https://github.com/thomaspsl/Website
+$ git clone https://github.com/thomaspsl/PrimoVideo
 # Go into the repository
-$ cd Website
-# Install dependencies
-$ npm install
-# Run the app
-$ npm run build
+$ cd PrimoVideo
 ```
 
 
 
 ## 🔑 Key Features
-There are no real specifications, when an idea comes to me, I develop it!
+You can find the specifications for this project [here](https://github.com/thomaspsl/PrimoVideo/files/11662941/tp-projet.4.pdf).
 
 
 
 ## 📮 Emailware
-Website is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <contact@thomaspsl.fr> about anything you'd want to say about this web software. I'd really appreciate it!
+PrimoVideo is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <contact@primovideo.fr> about anything you'd want to say about this web software. I'd really appreciate it!
 
 
 
@@ -101,6 +90,6 @@ MIT
 
 ---
 
-> GitHub [@thomaspsl](https://github.com/thomaspsl/Website) -
+> GitHub [@thomaspsl](https://github.com/thomaspsl/PrimoVideo) -
 > Instagram [@thomaspsl](https://www.instagram.com/thomaspsl_) - 
 > Twitter [@thomaspsl](https://twitter.com/thomaspsl_)
